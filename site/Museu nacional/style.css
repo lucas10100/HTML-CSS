@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(img/fundo.png);
+    background-repeat: repeat-x;
+}
+.container-topo{
+    
+    width: 1180px;
+    height: 150px;
+    margin: 0 auto;
+}
+.logo-sem-css h1{
+    
+    text-indent: -9999px;
+}
+.logo-com-css{
+    background-image: url(img/logo.png);
+    background-repeat: no-repeat;
+    width: 248px;
+    height: 21px;
+    float: left;
+    margin-left: 35px;
+   
+    margin-top: 30px;
+}
+nav{
+
+}
+ul li{
+    float: right;
+    padding: 15px;
+    list-style: none;
+    
+    margin-top: 18px;
+
+}
+a{
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+}
+a:hover{
+    color: green;
+    background: red;
+}
+
+.conteudo{
+    width: 1080px;
+    height: 1000px;
+    margin: 0 auto;
+    margin-top: -30px;
+    
+}
+.foto1{
+    background: url(img/museu.png) ;
+    background-repeat: no-repeat;
+   background-size: auto;
+    width: 600px;
+    height: 100%;
+    margin-left: 55px;
+
+}
+.foto2{
+ background: url(img/depoimento.png);
+ background-repeat: no-repeat;
+  width: 350px;
+  height: 450px;
+  float: right;
+  margin-top: -1000px;
+  margin-right: 55px;
+}
+.visita{
+    border: 1px solid rgb(0, 0, 0);
+    width: 350px;
+    height: 250px;
+    float: right;
+    margin-top: -650px;
+    margin-right: 52px;
+    background-color: rgb(225, 224, 224);
+}
