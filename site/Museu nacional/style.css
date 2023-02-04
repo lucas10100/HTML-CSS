@@ -75,9 +75,47 @@ a:hover{
 .visita{
     border: 1px solid rgb(0, 0, 0);
     width: 350px;
-    height: 250px;
+    height: 280px;
     float: right;
     margin-top: -650px;
     margin-right: 52px;
-    background-color: rgb(225, 224, 224);
+    background-color: rgba(192, 163, 65, 0.657);
+    border-radius: 25px;
+}
+
+fieldset{
+    font-size: 18px;
+    margin-top: 5px;
+    padding: 15px;
+    border-style: 25px;
+    margin-bottom: 20px;
+}
+h4{
+    margin-top: 25px;
+    margin-left: 100px;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+label{
+   
+}
+input{
+    height: 25px;
+    background: white;
+    border: none;
+    width: 100px;
+}
+.campo{
+    float: ;
+}
+.botao{
+    width: 100%;
+    font-size: 15px;
+    background-color: rgb(107, 99, 16);
+    color: white;
+    border-radius: 15px;
+}
+legend{
+    font-size: 18px;
+    text-align: center;
 }
