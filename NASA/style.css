@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: darkgoldenrod;
+    display: flex ;
+    justify-content: space-between;
+   max-height: 47px;
+}
+.logo{
+ margin-left: 120px;
+ color: rgb(0, 0, 0);
+ 
+ text-decoration: none;
+ letter-spacing: 15px;
+}
+.logo:hover{
+    color: rgb(43, 35, 35);
+    transition: 0.3s;
+    text-decoration: none;
+    cursor: pointer;
+}
+nav>ul{
+display: flex;
+list-style: none;
+}
+li{
+    padding: 10px;
+}
+.preto{
+ text-decoration: none;
+ transition: 0.3s;
+ color: black;
+}
+.preto:hover:hover{
+    color: ;
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+  
+}
