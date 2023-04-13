@@ -58,4 +58,19 @@ li{
     color: gray;
     background-color: rgb(255, 255, 255);
 }
-
+main>section{
+    text-align: center;
+}
+img{
+    width: 500px;
+    justify-content: center;
+    filter: grayscale(1);
+    object-fit: cover;
+    transition: 1s;
+    cursor: pointer;
+}
+img:hover{
+    filter: none;
+    transform: scale(1.05);
+ 
+}
