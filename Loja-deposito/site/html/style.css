@@ -46,25 +46,27 @@ nav ul li{
  text-decoration: underline  ;
  font-size: 20px;
 }
-main{
-   display: flex;
-}
+
+
 figure{
     position: relative;
     margin-left: 50px;
     margin-top: 5px;
 }
-#img-fundo{
-    border-radius: 10px;
+#caixa{
+    background-color: white;
+    margin-top: 90px;
+    width: 350px;
+    height: 400px;
+    margin-left: 500px;
+    border-radius: 20px;
+
 }
-section{
-    margin: 0 auto;
-   
+label{
+    display: block;
+    margin-top: 10px;
+    margin-left: 15px;
+    padding-top: 10px;
+    cursor: pointer;
 }
-.caixa{
-    
-    width: 500px;
-    height: 100px;
-    border: 1 px solid red;
-    background-color: rgb(0, 0, 0);
-}
+
